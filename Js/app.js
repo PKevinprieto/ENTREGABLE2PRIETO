@@ -36,5 +36,5 @@ btnEnviar.addEventListener("click", (e) => {
   usuarios.push(user);
 
   localStorage.setItem("usuarios", JSON.stringify(usuarios));
-  window.location.href = "../pages/iniciarsesion.html";
+  window.location.href = "pages/iniciarsesion.html";
 });
