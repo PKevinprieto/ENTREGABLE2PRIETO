@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PRODUCTOS</title>
+    <link rel="stylesheet" href="../css/style2.css" />
+    <script src="../Js/home.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <section>
+        <div class="titulo">
+          <h1>Celulares</h1>
+        </div>
+        <div class="general">
+          <div class="celulares">
+            <img src="../assets/fotosamsung.avif" alt="" />
+            <p class="nombre">Samsung</p>
+            <span id="precio-samsung">$900</span>
+          </div>
+          <div class="celulares">
+            <img src="../assets/foto motorola.jfif" alt="" />
+            <p class="nombre">Motorola</p>
+            <span id="precio-motorola">$500</span>
+          </div>
+          <div class="celulares">
+            <img src="../assets/foto iphone.jfif" alt="" />
+            <p class="nombre">Iphone</p>
+            <span id="precio-iphone">$1500</span>
+          </div>
+          <div class="celulares">
+            <img src="../assets/foto xiaomi.jfif" alt="" />
+            <p class="nombre">Xiaomi</p>
+            <span id="precio-xiaomi">$300</span>
+          </div>
+          <div class="celulares">
+            <img src="../assets/foto huawei.jfif" alt="" />
+            <p class="nombre">Huawei</p>
+            <span id="precio-huawei">$250</span>
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="gral">
+          <label for="prod">Ingrese producto</label>
+          <input id="objeto" type="text" name="prod" />
+          <label for="col">Elija color</label>
+          <input id="color" type="text" name="col" />
+          <label for="cant">Cantidad</label>
+          <input id="cantidad" type="number" name="cant" />
+          <input id="btn" type="submit" value="Añadir" class="buton" />
+          <div id="msj"></div>
+        </div>
+        <div class="botones">
+          <input type="submit" id="ver" value="Ver carrito" class="aver" />
+        </div>
+      </section>
+      <div class="acomodar">
+        <div id="contenedorr"></div>
+        <div id="total" class="totalpago"></div>
+      </div>
+    </main>
+  </body>
+</html>

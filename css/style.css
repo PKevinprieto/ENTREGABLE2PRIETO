@@ -1,0 +1,57 @@
+/* main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.caja {
+  height: 550px;
+  width: 500px;
+  background-color: lightblue;
+
+  justify-items: center;
+  align-content: center;
+}
+.formulary {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(4, 15%);
+  gap: 30px;
+}
+.inputgrande {
+  width: 250px;
+  height: 35px;
+}
+.btnenviar {
+  border: 3px outset rgb(162, 255, 162);
+  background-color: rgb(33, 255, 70);
+  box-shadow: 2px 3px 5px black;
+}
+.btnenviar:hover {
+  box-shadow: 2px 3px 5px rgb(177, 255, 181);
+}
+.requisitos {
+  width: fit-content;
+  height: fit-content;
+  margin-top: -60px;
+  margin-bottom: 70px;
+}
+.registro {
+  font-size: 2.3em;
+  width: fit-content;
+  padding: 10px;
+  height: 50px;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}
+.iniciose {
+  font-size: 2em;
+  width: 300px;
+  height: 50px;
+  background-color: green;
+  color: white;
+  border-radius: 10px;
+  text-align: center;
+}

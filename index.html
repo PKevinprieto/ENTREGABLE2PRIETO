@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>REGISTRARME</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="Js/app.js" defer></script>
+  </head>
+  <body>
+    <main>
+      <div class="caja">
+        <h1 class="registro">SIGN UP</h1>
+        <form id="formulario" class="formulary">
+          <input
+            id="name"
+            type="text"
+            class="inputgrande"
+            name="nombre"
+            placeholder="Username"
+          />
+          <input
+            id="pass"
+            type="password"
+            class="inputgrande"
+            name="contraseña"
+            placeholder="Password"
+          />
+          <div class="requisitos">
+            <p>The password must have at least:</p>
+            <ul>
+              <li>1 uppercase letter</li>
+              <li>1 special character</li>
+              <li>1 number</li>
+              <li>a minimum of 8 characters</li>
+            </ul>
+          </div>
+
+          <input
+            id="email"
+            type="email"
+            class="inputgrande"
+            name="email"
+            placeholder="Ingrese su correo electrónico"
+          />
+          <input type="submit" id="btn" class="btnenviar" value="Registrarme" />
+        </form>
+        <div id="contenedor"></div>
+      </div>
+      <p>
+        ¿Ya estas registrado?
+        <a href="pages/iniciarsesion.html"> Iniciar sesion</a>
+      </p>
+    </main>
+  </body>
+</html>
